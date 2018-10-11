@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::resource('secretaria', 'SecretariaController');
+Route::get('home/', 'HomeController@content');
